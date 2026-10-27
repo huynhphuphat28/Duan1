@@ -17,19 +17,20 @@ void Doanhthu(float doanhthu);
 int main() {
 	int n = 10;
     struct Quanlixe ds[n] = {
-        {"1", "Honda Wave Alpha 110", 10000, 20},
-        {"2", "Honda Future 125 FI", 10000, 15},
-        {"3", "Yamaha Sirius", 12000, 10},
-        {"4", "Yamaha Exciter 155 VVA", 80000, 25},
+    	//phothong
+        {"1", "Honda Wave Alpha 110", 19500000, 30},
+        {"2", "Honda Future 125 FI", 31500000, 15},
+        {"3", "Yamaha Sirius", 22000000, 30},
+        {"4", "Yamaha Exciter 155 VVA", 50000000, 25},
         //nu
-        {"5", "Honda SH Mode 125", 90000, 18},
-        {"6", "Honda Vision 110", 90000, 18},
+        {"5", "Honda SH Mode 125", 64000000, 20},
+        {"6", "Honda Vision 110", 32000000, 25},
         //nam
-        {"7", "Honda Vario (125cc)", 90000, 18},
-        {"8", "Honda Air Blade (125cc)", 90000, 18},
-        //dien
-        {"9", "VinFast Evo200", 90000, 18},
-        {"10", "VinFast Vento S", 90000, 18}
+        {"7", "Honda Vario (125cc)", 41000000, 30},
+        {"8", "Honda Air Blade (125cc)", 42400000, 25},
+        //xedien
+        {"9", "VinFast Evo200", 18800000, 15},
+        {"10", "VinFast Vento S", 49200000, 15}
     };
     float doanhthu = 0;
     int chon = 0;
